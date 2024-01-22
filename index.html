@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>Web Developer Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="logo" id="logo" />
+      <button type="button">
+        <img src="./assets/menu.svg" alt="menu" id="menu" />
+      </button>
+    </header>
+    <main>
+      <article id="introduction">
+        <img
+          src="./assets/avatar-1.png"
+          alt="avatar de apresentação"
+          id="avatar-1"
+        />
+        <p>Olá, eu sou o Alê 🤙</p>
+        <p>
+          Desenvolvo <span id="ideas">ideias</span> e ajudo a construir um mundo
+          melhor através do software.
+        </p>
+        <img src="./assets/underline.svg" alt="linha" id="ideas-underline" />
+        <div id="contact-and-cv">
+          <button id="contact-button" type="button">Contato</button>
+          <button id="cv-button" type="button">
+            Download CV
+            <img src="./assets/blue-arrow.svg" alt="seta" id="blue-arrow" />
+          </button>
+        </div>
+      </article>
+      <article id="projects">
+        <h2>Últimos Projetos</h2>
+        <div id="projects-container">
+          <section class="project">
+            <h3>E-commerce</h3>
+            <div class="technologies">
+              <span class="technology light-blue-bg">React</span>
+              <span class="technology rose-bg">Rest API</span>
+            </div>
+            <img
+              src="./assets/project-e-commerce.png"
+              alt="tela do projeto E-commerce"
+            />
+            <div class="git-deploy-container">
+              <button>
+                Github
+                <img src="./assets/github.svg" alt="logo do Github" />
+              </button>
+              <button>
+                Deploy <img src="./assets/deploy.svg" alt="ícone de deploy" />
+              </button>
+            </div>
+          </section>
+          <section class="project">
+            <h3>Trybe Course</h3>
+            <div class="technologies">
+              <span class="technology light-blue-bg">React native</span>
+              <span class="technology dark-bg">Redux</span>
+            </div>
+            <img
+              src="./assets/project-trybe-course.png"
+              alt="tela do projeto Trybe Course"
+            />
+            <div class="git-deploy-container">
+              <button>
+                Github
+                <img src="./assets/github.svg" alt="logo do Github" />
+              </button>
+              <button>
+                Deploy <img src="./assets/deploy.svg" alt="ícone de deploy" />
+              </button>
+            </div>
+          </section>
+          <section class="project">
+            <h3>Trybetunes</h3>
+            <div class="technologies">
+              <span class="technology light-blue-bg">HTML</span>
+              <span class="technology emerald-bg">CSS</span>
+              <span class="technology yellow-bg">JS</span>
+              <span class="technology dark-bg">Redux</span>
+            </div>
+            <img
+              src="./assets/project-trybe-tunes.png"
+              alt="projeto Trybetunes"
+            />
+            <div class="git-deploy-container">
+              <button>
+                Github
+                <img src="./assets/github.svg" alt="logo do Github" />
+              </button>
+              <button>
+                Deploy <img src="./assets/deploy.svg" alt="ícone de deploy" />
+              </button>
+            </div>
+          </section>
+        </div>
+        <div id="arrows-container">
+          <button type="button" class="yellow-arrow" id="left">
+            <img src="./assets/white-arrow.svg" alt="seta para a esquerda" />
+          </button>
+          <button type="button" class="yellow-arrow" id="right">
+            <img src="./assets/white-arrow.svg" alt="seta para a direita" />
+          </button>
+        </div>
+      </article>
+      <article id="about">
+        <h2>Sobre mim</h2>
+        <img
+          id="curved-arrow"
+          src="./assets/curved-arrow.svg"
+          alt="seta curvada"
+        />
+        <div id="about-container">
+          <div id="about-content">
+            <div id="text">
+              <span></span>
+              <div>
+                <p>
+                  Tenho 20 anos, estou em transição de carreira, vindo da área
+                  administrativa onde desenvolvi experiência com gestão de
+                  pessoas, gestão de empresas e negociação com cliente.
+                </p>
+                <br />
+                <p>Hoje construo aplicações fullstack!</p>
+              </div>
+            </div>
+            <h3>Skills</h3>
+            <section id="skills">
+              <div class="skill">
+                <img src="./assets/react.png" alt="logo do React" />
+                <span>React</span>
+              </div>
+              <div class="skill">
+                <img src="./assets/node.png" alt="logo do Node.js" />
+                <span>Node.js</span>
+              </div>
+              <div class="skill">
+                <img src="./assets/my-sql.png" alt="logo do MySQL" />
+                <span>MySQL</span>
+              </div>
+            </section>
+          </div>
+          <img id="avatar-2" src="./assets/avatar-2.png" alt="avatar" />
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div id="footer-container">
+        <div id="footer-content">
+          <h2>Tem alguma ideia?</h2>
+          <p>Vamos construí-la juntos!</p>
+          <a href="mailto:hello@achtenberg.io" id="email"
+            >hello@achtenberg.io</a
+          >
+          <div id="socials">
+            <button type="button" class="social">
+              <img src="./assets/twitter.svg" alt="logo do Twitter" />
+            </button>
+            <button type="button" class="social">
+              <img src="./assets/linkedin.svg" alt="logo do LinkedIn" />
+            </button>
+          </div>
+        </div>
+        <img id="footer-img" src="./assets/footer.png" alt="" />
+      </div>
+      <div id="page-info">
+        <span>Developed by Alessandro Achtenberg</span>
+        <span>|</span>
+        <span>Design by</span>
+        <img src="./assets/rafo.svg" />
+      </div>
+    </footer>
+  </body>
+</html>
