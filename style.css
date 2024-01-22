@@ -315,7 +315,7 @@ h2 {
 }
 
 .skill img {
-  width: 7.75rem;
+  width: 9.25rem;
 }
 
 .skill span {
@@ -329,7 +329,9 @@ h2 {
 
 /* ================== FOOTER ================== */
 footer {
+  width: 1280px;
   margin-top: 5rem;
+  margin-inline: auto;
   padding-block: 5rem 1.75rem;
   border-radius: 3rem 3rem 0 0;
   background-color: var(--dark);
